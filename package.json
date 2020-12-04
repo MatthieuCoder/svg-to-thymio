@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "dependencies": {
+    "rollup": "^2.33.3",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "scripts": {
+    "build": "tsc -p . && rollup -c && rm -r build"
+  }
+}
