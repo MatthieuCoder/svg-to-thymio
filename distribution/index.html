@@ -1,0 +1,80 @@
+
+<!--
+  ~ /*
+  ~  * This file is subject to the terms and conditions defined in
+  ~  * file 'LICENSE.txt', which is part of this source code package.
+  ~  */
+  -->
+
+<!--
+  ~ /*
+  ~  * This file is subject to the terms and conditions defined in
+  ~  * file 'LICENSE.txt', which is part of this source code package.
+  ~  */
+  -->
+
+<!--
+  ~ /*
+  ~  * This file is subject to the terms and conditions defined in
+  ~  * file 'LICENSE.txt', which is part of this source code package.
+  ~  */
+  -->
+
+<!--
+  ~ /*
+  ~  * This file is subject to the terms and conditions defined in
+  ~  * file 'LICENSE.txt', which is part of this source code package.
+  ~  */
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ThymioSVGenerator</title>
+    <link type="text/css" as="style" rel="stylesheet" href="css/index.css"/>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+<nav class="nav">
+    <ul>
+        <li class="item">ThymioSVGenerator</li>
+    </ul>
+</nav>
+<div class="sections">
+    <section class="settings block">
+        <h2>
+            Réglages du générateur
+        </h2>
+        <!-- Section des réglages -->
+        <label for="svg">The svg file to build the paths from</label>
+        <br/>
+        <textarea id="svg"></textarea>
+        <label for="availablePaths">List of the available paths for the robot.</label>
+        <br/>
+        <select id="availablePaths"></select>
+        <br/>
+        <label for="resolution">The resolution for the generator</label>
+        <input id="resolution" type="number" value="1" max="100" min="1">
+        <br/>
+        <button id="do">Validate</button>
+        <br/>
+    </section>
+    <section class="block">
+        <h2>
+            Preview
+        </h2>
+        <!-- Section du canvas pour afficher la trajectoire -->
+        <canvas height="500" width="500" id="result"></canvas>
+    </section>
+</div>
+<div class="block editorBottom">
+    <h2>
+        Liste d'instructions
+    </h2>
+    <p id="code">
+
+    </p>
+</div>
+</body>
+</html>

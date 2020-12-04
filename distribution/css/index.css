@@ -1,0 +1,94 @@
+/*
+ *
+ *  * This file is subject to the terms and conditions defined in
+ *  * file 'LICENSE.txt', which is part of this source code package.
+ *
+ */
+
+
+/*
+ *
+ *  * This file is subject to the terms and conditions defined in
+ *  * file 'LICENSE.txt', which is part of this source code package.
+ *
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body, head {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #303030;
+    color: white;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+.nav {
+    background-color: white;
+    color: black;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+}
+
+.nav ul {
+    list-style: none;
+    font-size: 25px;
+    font-weight: 25;
+}
+
+.sections {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+
+.block {
+
+    color: black;
+    padding: 10px;
+    background: white;
+    margin: 5px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.settings {
+    display: flex;
+    flex-flow: column;
+}
+
+label {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+canvas {
+    width: 100%;
+}
+
+#graphEditor {
+    display: flex;
+    flex: 1;
+}
+.editorBottom {
+    display: flex;
+    flex-direction: column;
+}
+
+#editor1 {
+    flex: 1;
+    width: 100%;
+}
